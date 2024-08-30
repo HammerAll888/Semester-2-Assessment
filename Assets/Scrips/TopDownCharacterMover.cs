@@ -7,6 +7,7 @@ using UnityEngine;
 public class TopDownCharacterMover : MonoBehaviour
 {
     private InputHandler _input; //References the InputHandler script
+    public CameraManager CameraManager; //Referebces the CameraManager script
 
     //List of game objects used in the script
     [SerializeField] private float moveSpeed;
@@ -26,6 +27,15 @@ public class TopDownCharacterMover : MonoBehaviour
         var movementVector = MoveTowardTarget(targetVector);
 
         RotateTowardMovementVector(movementVector);
+
+        if(Input.GetKeyDown(KeyCode.Q))
+        {
+            CameraManager.SwitchCamera(CameraManager.cam1);
+        }
+        if(Input.GetKeyDown(KeyCode.E))
+        {
+            CameraManager.SwitchCamera(CameraManager.cam2);
+        }
     }
 
     private void RotateTowardMovementVector(Vector3 movementVector)
