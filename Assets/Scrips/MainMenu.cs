@@ -12,7 +12,7 @@ public class MainMenu : MonoBehaviour
 
     public void LevelSelect()
     {
-        SceneManager.LoadSceneAsync(2);
+        SceneManager.LoadSceneAsync(3);
     }
 
     public void Menu()
