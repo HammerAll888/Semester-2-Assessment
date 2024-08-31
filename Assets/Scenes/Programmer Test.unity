@@ -139,6 +139,20 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3350340001183207301, guid: 79f0fa4052a60ef4f93e4a09a32dad58, type: 3}
   m_PrefabInstance: {fileID: 3350340000594024776}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &595515094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 595515085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c25b42907dd12404dbfc75df40a8a4c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jumpForce: 5
+  groundDistance: 1
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -377,7 +391,7 @@ GameObject:
   - component: {fileID: 1113996341}
   m_Layer: 0
   m_Name: Floor
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
