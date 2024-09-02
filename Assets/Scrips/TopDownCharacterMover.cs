@@ -19,15 +19,16 @@ public class TopDownCharacterMover : MonoBehaviour
         _input = GetComponent<InputHandler>();
     }
 
-    // Update is called once per frame
     void Update()
     {
+        //Makes the character face the direction of travel
         var targetVector = new Vector3(_input.InputVector.x, 0, _input.InputVector.y);
         
         var movementVector = MoveTowardTarget(targetVector);
 
         RotateTowardMovementVector(movementVector);
 
+        //Detects when the player will rotate the camera
         if(Input.GetKeyDown(KeyCode.Q))
         {
             CameraManager.SwitchCamera(CameraManager.cam1);
@@ -38,6 +39,7 @@ public class TopDownCharacterMover : MonoBehaviour
         }
     }
 
+    //Makes the character face the direction of travel
     private void RotateTowardMovementVector(Vector3 movementVector)
     {
         if(movementVector.magnitude == 0) { return; }
@@ -45,6 +47,7 @@ public class TopDownCharacterMover : MonoBehaviour
         transform.rotation = Quaternion.RotateTowards(transform.rotation, rotation, rotateSpeed);
     }
 
+    //Makes the player move in the targeted direction
     private Vector3 MoveTowardTarget(Vector3 targetVector)
     {
         var speed = moveSpeed * Time.deltaTime;
