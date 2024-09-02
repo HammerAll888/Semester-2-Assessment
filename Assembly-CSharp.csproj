@@ -63,10 +63,10 @@
     <Compile Include="Assets\Scrips\InputHandler.cs" />
     <Compile Include="Assets\Scrips\Quit.cs" />
     <Compile Include="Assets\Scrips\Portal.cs" />
+    <Compile Include="Assets\Scrips\Dialogue.cs" />
     <Compile Include="Assets\Scrips\PlayerJump.cs" />
     <Compile Include="Assets\Scrips\TopDownCharacterMover.cs" />
     <Compile Include="Assets\Scrips\CameraManager.cs" />
-    <Compile Include="Assets\Scrips\Dialogue.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
