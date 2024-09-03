@@ -12,6 +12,8 @@ public class Dialogue : MonoBehaviour
 
     private int index;
 
+    [SerializeField] GameObject Player;
+
     void Start()
     {
         textComponent.text = string.Empty;
@@ -60,6 +62,7 @@ public class Dialogue : MonoBehaviour
         else
         {
             gameObject.SetActive(false);
+            Player.SetActive(true);
         }
     }
 }

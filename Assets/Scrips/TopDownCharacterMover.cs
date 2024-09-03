@@ -14,9 +14,22 @@ public class TopDownCharacterMover : MonoBehaviour
     [SerializeField] private Camera cam;
     [SerializeField] private float rotateSpeed;
 
+    //List of variables needed to apply jump force
+    public float jumpForce = 5;
+    public float groundDistance = 1;
+
+    Rigidbody rb;
+
     private void Awake()
     {
         _input = GetComponent<InputHandler>();
+        rb = GetComponent<Rigidbody>();
+    }
+
+    //Checks if the character is on the ground
+    bool isGrounded()
+    {
+        return Physics.Raycast(transform.position, Vector3.down, groundDistance);
     }
 
     void Update()
@@ -36,6 +49,12 @@ public class TopDownCharacterMover : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.E))
         {
             CameraManager.SwitchCamera(CameraManager.cam2);
+        }
+
+        //This will make the character jump on space bar input
+        if(Input.GetKeyDown(KeyCode.Space) && isGrounded())
+        {
+            rb.velocity = Vector3.up * jumpForce;
         }
     }
 

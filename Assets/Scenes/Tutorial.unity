@@ -12570,6 +12570,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 3350340001183207301, guid: 79f0fa4052a60ef4f93e4a09a32dad58, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3350340001183207321, guid: 79f0fa4052a60ef4f93e4a09a32dad58, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -39641,6 +39645,7 @@ MonoBehaviour:
   - Space Bar To Jump.
   - Q/E To Rotate Camera.
   textSpeed: 0.1
+  Player: {fileID: 772006072}
 --- !u!114 &1274416350
 MonoBehaviour:
   m_ObjectHideFlags: 0
