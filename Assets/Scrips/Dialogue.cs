@@ -6,20 +6,24 @@ using Unity.VisualScripting;
 
 public class Dialogue : MonoBehaviour
 {
+    //List of objects used in the script
     public TextMeshProUGUI textComponent;
     public string[] lines;
     public float textSpeed;
 
     private int index;
 
+    //References the player object
     [SerializeField] GameObject Player;
 
+    //Will start the dialogue when the game starts
     void Start()
     {
         textComponent.text = string.Empty;
         StartDialogue();
     }
 
+    //Will wait for M1 click to either skip to the end of the line or move to the next one
     void Update()
     {
         if(Input.GetMouseButtonDown(0))
@@ -36,12 +40,14 @@ public class Dialogue : MonoBehaviour
         }
     }
 
+    //This will start the dialogue
     void StartDialogue()
     {
         index = 0;
         StartCoroutine(TypeLine());
     }
 
+    //This types out the lines on the page
     IEnumerator TypeLine()
     {
         foreach (char c in lines[index].ToCharArray())
@@ -51,6 +57,7 @@ public class Dialogue : MonoBehaviour
         }
     }
 
+    //This will determine how many lines there will be
     void NextLine()
     {
         if (index < lines.Length - 1)
@@ -61,8 +68,8 @@ public class Dialogue : MonoBehaviour
         }
         else
         {
-            gameObject.SetActive(false);
-            Player.SetActive(true);
+            gameObject.SetActive(false); //Deactivates the dialogue box when the last line is complete
+            Player.SetActive(true); //This will turn the player and all the components attached on
         }
     }
 }

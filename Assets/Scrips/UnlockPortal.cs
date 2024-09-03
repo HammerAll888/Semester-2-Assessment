@@ -5,9 +5,12 @@ using static Cinemachine.DocumentationSortingAttribute;
 
 public class UnlockPortal : MonoBehaviour
 {
+    //Will find the game objecsts listed
     [SerializeField] GameObject manaCrystal;
     [SerializeField] GameObject endLevelPortal;
 
+    //When the player enteres the collider of the 'manaCrystal' it will turn off the 'manaCrystal'
+    //It will also turn on the box collider component in the portal allowing the player to move to the next level
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "manaCrystal")

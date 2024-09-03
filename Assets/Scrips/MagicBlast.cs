@@ -11,6 +11,7 @@ public class MagicBlast : MonoBehaviour
         Destroy(gameObject, life);
     }
 
+    //This will destroy any game object tagged 'Target' when collided with
     void OnCollisionEnter(Collision collision)
     {
         if(collision.gameObject.CompareTag("Target"))

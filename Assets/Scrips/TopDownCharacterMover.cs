@@ -20,6 +20,7 @@ public class TopDownCharacterMover : MonoBehaviour
 
     Rigidbody rb;
 
+    //External components needed for movemnet
     private void Awake()
     {
         _input = GetComponent<InputHandler>();

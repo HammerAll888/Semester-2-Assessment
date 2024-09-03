@@ -5,7 +5,7 @@ using UnityEngine;
 public class Quit : MonoBehaviour
 {
 
-    // Update is called once per frame
+    //Will quit the game when Esc is pressed
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.Escape))
