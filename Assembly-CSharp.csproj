@@ -68,6 +68,7 @@
     <Compile Include="Assets\Scrips\Wand.cs" />
     <Compile Include="Assets\Scrips\TopDownCharacterMover.cs" />
     <Compile Include="Assets\Scrips\CameraManager.cs" />
+    <Compile Include="Assets\Scrips\Controller Movement.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
