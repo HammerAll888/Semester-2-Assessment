@@ -13,6 +13,7 @@ public class TopDownCharacterMover : MonoBehaviour
     [SerializeField] private float moveSpeed;
     [SerializeField] private Camera cam;
     [SerializeField] private float rotateSpeed;
+    [SerializeField] private bool rotateTowardsMouse;
 
     //List of variables needed to apply jump force
     public float jumpForce = 5;
@@ -40,7 +41,10 @@ public class TopDownCharacterMover : MonoBehaviour
         
         var movementVector = MoveTowardTarget(targetVector);
 
-        RotateTowardMovementVector(movementVector);
+        if (!rotateTowardsMouse)
+            RotateTowardMovementVector(movementVector);
+        else
+            RotateTowardMovementVector();
 
         //Detects when the player will rotate the camera
         if(Input.GetKeyDown(KeyCode.Q))
@@ -56,6 +60,18 @@ public class TopDownCharacterMover : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Space) && isGrounded())
         {
             rb.velocity = Vector3.up * jumpForce;
+        }
+    }
+
+    private void RotateTowardMovementVector()
+    {
+        Ray ray = cam.ScreenPointToRay(_input.MousePosition);
+
+        if (Physics.Raycast(ray, out RaycastHit hitInfo, maxDistance: 300f))
+        {
+            var target = hitInfo.point;
+            target.y = transform.position.y;
+            transform.LookAt(target);
         }
     }
 

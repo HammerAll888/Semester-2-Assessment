@@ -327,10 +327,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8caef62cb8cadf4db68efa71521a14f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CameraManager: {fileID: 0}
+  CameraManager: {fileID: 5643186576173095725, guid: a26749e4e598beb4aa1f3922359c639b, type: 3}
   moveSpeed: 4
   cam: {fileID: 0}
   rotateSpeed: 15
+  rotateTowardsMouse: 1
   jumpForce: 5
   groundDistance: 1
 --- !u!114 &3724151486683443664
