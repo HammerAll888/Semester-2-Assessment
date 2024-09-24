@@ -47,6 +47,6 @@ MonoBehaviour:
   cameras:
   - {fileID: 0}
   - {fileID: 0}
-  cam1: {fileID: 294953152410410081, guid: a1b886ff28bd6f04f918675e5c6ca5cf, type: 3}
-  cam2: {fileID: 124599309726230104, guid: 47aaa46f8d2305e4ba967c78ee31c14c, type: 3}
-  startCam: {fileID: 294953152410410081, guid: a1b886ff28bd6f04f918675e5c6ca5cf, type: 3}
+  cam1: {fileID: 0}
+  cam2: {fileID: 0}
+  startCam: {fileID: 0}
