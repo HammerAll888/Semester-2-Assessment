@@ -7,7 +7,7 @@ using UnityEngine;
 public class TopDownCharacterMover : MonoBehaviour
 {
     private InputHandler _input; //References the InputHandler script
-    public CameraManager CameraManager; //Referebces the CameraManager script
+    public CameraManager CameraManager; //References the CameraManager script
 
     //List of game objects used in the script
     [SerializeField] private float moveSpeed;
