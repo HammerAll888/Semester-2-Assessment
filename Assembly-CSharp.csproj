@@ -61,14 +61,15 @@
     <Compile Include="Assets\Scrips\PlayerReset.cs" />
     <Compile Include="Assets\Scrips\UnlockPortal.cs" />
     <Compile Include="Assets\Scrips\InputHandler.cs" />
-    <Compile Include="Assets\Scrips\MagicBlast.cs" />
+    <Compile Include="Assets\Scrips\Wand\MagicBlastTest.cs" />
     <Compile Include="Assets\Scrips\Quit.cs" />
     <Compile Include="Assets\Scrips\Portal.cs" />
     <Compile Include="Assets\Scrips\Dialogue.cs" />
-    <Compile Include="Assets\Scrips\Wand.cs" />
+    <Compile Include="Assets\Scrips\Wand\Wand.cs" />
+    <Compile Include="Assets\Scrips\PressurePlate.cs" />
     <Compile Include="Assets\Scrips\TopDownCharacterMover.cs" />
     <Compile Include="Assets\Scrips\CameraManager.cs" />
-    <Compile Include="Assets\Scrips\Pressure Plate Scripts\PressurePlate.cs" />
+    <Compile Include="Assets\Scrips\Wand\MagicBlastLvl2.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
