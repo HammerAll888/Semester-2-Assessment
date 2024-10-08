@@ -16,7 +16,8 @@
 		_RimAmount("Rim Amount", Range(0, 1)) = 0.716
 		// Control how smoothly the rim blends when approaching unlit
 		// parts of the surface.
-		_RimThreshold("Rim Threshold", Range(0, 1)) = 0.1		
+		_RimThreshold("Rim Threshold", Range(0, 1)) = 0.1	
+		_ShadowBlur ("Shadow Blur", Range(0, 0.1)) = 0
 	}
 	SubShader
 	{
@@ -88,6 +89,8 @@
 			float _RimAmount;
 			float _RimThreshold;	
 
+			float _ShadowBlur;
+
 			float4 frag (v2f i) : SV_Target
 			{
 				float3 normal = normalize(i.worldNormal);
@@ -107,7 +110,7 @@
 				float shadow = SHADOW_ATTENUATION(i);
 				// Partition the intensity into light and dark, smoothly interpolated
 				// between the two to avoid a jagged break.
-				float lightIntensity = smoothstep(0, 0.01, NdotL * shadow);	
+				float lightIntensity = smoothstep(0, _ShadowBlur, NdotL * shadow);	
 				// Multiply by the main directional light's intensity and color.
 				float4 light = lightIntensity * _LightColor0;
 
@@ -125,7 +128,7 @@
 				// We only want rim to appear on the lit side of the surface,
 				// so multiply it by NdotL, raised to a power to smoothly blend it.
 				float rimIntensity = rimDot * pow(NdotL, _RimThreshold);
-				rimIntensity = smoothstep(_RimAmount - 0.01, _RimAmount + 0.01, rimIntensity);
+				rimIntensity = smoothstep(_RimAmount - _ShadowBlur, _RimAmount + _ShadowBlur, rimIntensity);
 				float4 rim = rimIntensity * _RimColor;
 
 				float4 sample = tex2D(_MainTex, i.uv);

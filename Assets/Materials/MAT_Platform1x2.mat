@@ -74,6 +74,7 @@ Material:
     - _Parallax: 0.005
     - _RimAmount: 0.716
     - _RimThreshold: 0.1
+    - _ShadowBlur: 0.0484
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
