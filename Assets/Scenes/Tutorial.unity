@@ -4315,6 +4315,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GooberV3
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e8a1b6d8379c4d34fbeaf5d4e3c21761, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e8a1b6d8379c4d34fbeaf5d4e3c21761, type: 3}
 --- !u!43 &1401686316
@@ -7239,7 +7243,7 @@ PrefabInstance:
       objectReference: {fileID: 1675178582}
     - target: {fileID: 3546702297404119372, guid: f0b86b16ee3e16148ad759f3322a9fea, type: 3}
       propertyPath: SceneName
-      value: Level 2
+      value: Thank You
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f0b86b16ee3e16148ad759f3322a9fea, type: 3}

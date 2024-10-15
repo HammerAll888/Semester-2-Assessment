@@ -70,6 +70,7 @@
     <Compile Include="Assets\Scrips\TopDownCharacterMover.cs" />
     <Compile Include="Assets\Scrips\CameraManager.cs" />
     <Compile Include="Assets\Scrips\Wand\MagicBlastLvl2.cs" />
+    <Compile Include="Assets\Prefabs\Player Items\READ ME.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -863,6 +864,12 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TerrainTools">
+      <HintPath>Library\ScriptAssemblies\Unity.TerrainTools.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TerrainTools.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
