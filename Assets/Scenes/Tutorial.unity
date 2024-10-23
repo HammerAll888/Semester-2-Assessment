@@ -2432,6 +2432,38 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f514cbbdf5db2746b5fb4e8e4fd339c, type: 3}
+--- !u!1 &1788822190 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8329480712196620999, guid: 9f514cbbdf5db2746b5fb4e8e4fd339c, type: 3}
+  m_PrefabInstance: {fileID: 1788822189}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1788822192
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788822190}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.013919968, y: 0.025662381, z: 0.013919962}
+  m_Center: {x: -0.0000013452958, y: 0.00007323734, z: -0.00000009778906}
+--- !u!64 &1788822196
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788822190}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4702925393065980420, guid: 90e5ef881b3449f47aef7fae8726b05f, type: 3}
 --- !u!1001 &1852381713
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2676,7 +2708,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5547295437757223789, guid: d32c46588be956f468ed522886cd645e, type: 3}
       propertyPath: m_Name
-      value: PurplePortalV2
+      value: PurplePortalV1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d32c46588be956f468ed522886cd645e, type: 3}
