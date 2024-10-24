@@ -15,6 +15,10 @@ public class PlayerController : MonoBehaviour
     private Vector3 velocity;
     private bool isGrounded;
 
+    public float gravity = -9.81f;
+    public float fallMultiplier = 2.5f;
+    public float lowJumpMultiplier = 2f;
+
     // Added variables for camera switching
     public CameraManager cameraManager; // Reference to your CameraManager
     private InputAction switchCameraAction; // Input action for switching cameras
@@ -62,14 +66,36 @@ public class PlayerController : MonoBehaviour
             RotateTowardsMovementDirection(moveDirection); // Changed code
         }
 
+        Vector2 rotateInput = inputActions.Player.Rotation.ReadValue<Vector2>();
+        if(rotateInput.magnitude > 0)
+        {
+            RotateWithRightStick(rotateInput);
+        }
+
         if (isGrounded)
         {
+            velocity.y = 0f;
+
             // Jumping
             if (inputActions.Player.Jump.triggered)
             {
-                velocity.y = Mathf.Sqrt(jumpHeight * -2f * Physics.gravity.y); // Jump force calculation
+                velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity); // Jump force calculation
             }
         }
+        else
+        {
+            if(velocity.y < 0)
+            {
+                velocity.y += gravity * (fallMultiplier - 1) * Time.deltaTime;
+            }
+            else if (velocity.y > 0 && !inputActions.Player.Jump.IsPressed())
+            {
+                velocity.y += gravity * (lowJumpMultiplier - 1) * Time.deltaTime;
+            }
+        }
+
+        velocity.y += gravity * Time.deltaTime;
+        characterController.Move((moveDirection + velocity) * Time.deltaTime);
 
         // Apply gravity continuously
         velocity.y += Physics.gravity.y * Time.deltaTime;
@@ -83,10 +109,29 @@ public class PlayerController : MonoBehaviour
     {
         if (moveDirection != Vector3.zero) // Changed code
         {
-            // Changed code: Calculate target rotation based on movement direction
-            Quaternion targetRotation = Quaternion.LookRotation(moveDirection); // Changed code
+            Vector3 cameraForward = Camera.main.transform.forward;
+            cameraForward.y = 0;
+            cameraForward.Normalize();
 
-            // Rotate towards the target rotation
+            Vector3 adjustedMoveDirection = Camera.main.transform.TransformDirection(moveDirection);
+
+            Quaternion targetRotation = Quaternion.LookRotation(adjustedMoveDirection);
+            transform.rotation = Quaternion.RotateTowards(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
+
+        }
+    }
+
+    private void RotateWithRightStick(Vector2 rotateInput)
+    {
+        if(rotateInput.sqrMagnitude > 0.01f)
+        {
+            Vector3 cameraForward = Camera.main.transform.forward;
+            cameraForward.y = 0;
+            cameraForward.Normalize();
+
+            float targetAngle = Mathf.Atan2(rotateInput.x, rotateInput.y) * Mathf.Rad2Deg;
+
+            Quaternion targetRotation = Quaternion.Euler(0, targetAngle, 0) * Camera.main.transform.rotation;
             transform.rotation = Quaternion.RotateTowards(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
         }
     }

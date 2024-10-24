@@ -579,7 +579,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e8a1b6d8379c4d34fbeaf5d4e3c21761, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.52
+      value: 0.468
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e8a1b6d8379c4d34fbeaf5d4e3c21761, type: 3}
       propertyPath: m_LocalPosition.z
@@ -842,6 +842,9 @@ MonoBehaviour:
   moveSpeed: 5
   rotationSpeed: 2000
   jumpHeight: 2
+  gravity: -9.81
+  fallMultiplier: 2.5
+  lowJumpMultiplier: 2
   cameraManager: {fileID: 326331149}
 --- !u!143 &1977237677
 CharacterController:
