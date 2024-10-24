@@ -842,6 +842,7 @@ MonoBehaviour:
   moveSpeed: 5
   rotationSpeed: 2000
   jumpHeight: 2
+  cameraManager: {fileID: 326331149}
 --- !u!143 &1977237677
 CharacterController:
   m_ObjectHideFlags: 0
