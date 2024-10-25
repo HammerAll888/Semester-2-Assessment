@@ -4,13 +4,6 @@ using UnityEngine;
 
 public class MagicBlastTest : MonoBehaviour
 {
-    public float life = 3;
-
-    private void Awake()
-    {
-        Destroy(gameObject, life);
-    }
-
     //This will destroy any game object tagged 'Target' when collided with
     void OnCollisionEnter(Collision collision)
     {

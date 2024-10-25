@@ -8,6 +8,7 @@ TagManager:
   - manaCrystal
   - Target
   - bluePlatform
+  - magicBlast
   layers:
   - Default
   - TransparentFX

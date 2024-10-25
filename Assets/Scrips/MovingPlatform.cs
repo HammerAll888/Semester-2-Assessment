@@ -1,12 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Net;
 using UnityEngine;
 
-public class MagicBlastLvl2 : MonoBehaviour
+public class MovingPlatform : MonoBehaviour
 {
-    [SerializeField] GameObject hiddenPlatform;
-    public Transform HiddenPlatform;
+    [SerializeField] GameObject HiddenPlatform;
+    public Transform hiddenplatform;
     public float moveDistance = 2f;
     public float moveSpeed = 2f;
     private Vector3 originalPos;
@@ -14,7 +13,7 @@ public class MagicBlastLvl2 : MonoBehaviour
 
     private void Start()
     {
-        originalPos = HiddenPlatform.position;
+        originalPos = hiddenplatform.position;
     }
 
     private void OnTriggerEnter(Collider other)
@@ -35,9 +34,9 @@ public class MagicBlastLvl2 : MonoBehaviour
 
     private void MovePlatformUp()
     {
-        if(HiddenPlatform.position.y < originalPos.y + moveDistance)
+        if(hiddenplatform.position.y < originalPos.y + moveDistance)
         {
-            HiddenPlatform.position += new Vector3(0, moveSpeed * Time.deltaTime, 0);
+            hiddenplatform.position += new Vector3(0, moveSpeed * Time.deltaTime, 0);
         }
     }
 }
