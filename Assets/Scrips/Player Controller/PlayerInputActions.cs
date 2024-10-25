@@ -62,6 +62,15 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Place Gem"",
+                    ""type"": ""Button"",
+                    ""id"": ""8a580038-85ac-43da-9d67-1dfcc1ad7256"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -119,6 +128,17 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""action"": ""Switch Camera"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""9934f82d-2f3c-40bc-a910-4fc2c402e54d"",
+                    ""path"": ""<Gamepad>/buttonWest"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Place Gem"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -131,6 +151,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
         m_Player_Rotation = m_Player.FindAction("Rotation", throwIfNotFound: true);
         m_Player_Jump = m_Player.FindAction("Jump", throwIfNotFound: true);
         m_Player_SwitchCamera = m_Player.FindAction("Switch Camera", throwIfNotFound: true);
+        m_Player_PlaceGem = m_Player.FindAction("Place Gem", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -196,6 +217,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
     private readonly InputAction m_Player_Rotation;
     private readonly InputAction m_Player_Jump;
     private readonly InputAction m_Player_SwitchCamera;
+    private readonly InputAction m_Player_PlaceGem;
     public struct PlayerActions
     {
         private @PlayerInputActions m_Wrapper;
@@ -204,6 +226,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
         public InputAction @Rotation => m_Wrapper.m_Player_Rotation;
         public InputAction @Jump => m_Wrapper.m_Player_Jump;
         public InputAction @SwitchCamera => m_Wrapper.m_Player_SwitchCamera;
+        public InputAction @PlaceGem => m_Wrapper.m_Player_PlaceGem;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -225,6 +248,9 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
             @SwitchCamera.started += instance.OnSwitchCamera;
             @SwitchCamera.performed += instance.OnSwitchCamera;
             @SwitchCamera.canceled += instance.OnSwitchCamera;
+            @PlaceGem.started += instance.OnPlaceGem;
+            @PlaceGem.performed += instance.OnPlaceGem;
+            @PlaceGem.canceled += instance.OnPlaceGem;
         }
 
         private void UnregisterCallbacks(IPlayerActions instance)
@@ -241,6 +267,9 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
             @SwitchCamera.started -= instance.OnSwitchCamera;
             @SwitchCamera.performed -= instance.OnSwitchCamera;
             @SwitchCamera.canceled -= instance.OnSwitchCamera;
+            @PlaceGem.started -= instance.OnPlaceGem;
+            @PlaceGem.performed -= instance.OnPlaceGem;
+            @PlaceGem.canceled -= instance.OnPlaceGem;
         }
 
         public void RemoveCallbacks(IPlayerActions instance)
@@ -264,5 +293,6 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
         void OnRotation(InputAction.CallbackContext context);
         void OnJump(InputAction.CallbackContext context);
         void OnSwitchCamera(InputAction.CallbackContext context);
+        void OnPlaceGem(InputAction.CallbackContext context);
     }
 }

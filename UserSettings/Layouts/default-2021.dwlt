@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Hierarchy
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 67
+  controlID: 18
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 68
+  controlID: 19
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -249,7 +249,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 69
+  controlID: 20
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -298,10 +298,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 403
+    x: 3843
     y: 73
     width: 1064
-    height: 605
+    height: 611
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -331,9 +331,9 @@ MonoBehaviour:
     m_SearchString: 
   m_ActionsTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 0423e144
-    m_LastClickedID: 1155605252
-    m_ExpandedIDs: 151057b3dce4acc9363b90fbf46e952b0386493a68aa7340
+    m_SelectedIDs: 7cc52256
+    m_LastClickedID: 1445119356
+    m_ExpandedIDs: 151057b3dce4acc9363b90fbf46e952b0386493a68aa7340c84fed63
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -358,8 +358,8 @@ MonoBehaviour:
         selectedIndex: 2
         scroll: {x: 0, y: 0}
       - itemId: 1275948795
-        selectedIndex: 19
-        scroll: {x: 0, y: 167.5}
+        selectedIndex: 5
+        scroll: {x: 0, y: 47.5}
       - itemId: 689967731
         selectedIndex: -1
         scroll: {x: 0, y: 0}
@@ -379,6 +379,9 @@ MonoBehaviour:
         selectedIndex: -1
         scroll: {x: 0, y: 0}
       - itemId: 998472819
+        selectedIndex: -1
+        scroll: {x: 0, y: 0}
+      - itemId: 1581240744
         selectedIndex: -1
         scroll: {x: 0, y: 0}
     m_ManualPathEditMode: 0
@@ -403,6 +406,10 @@ MonoBehaviour:
       \"interactions\": \"\",\n                    \"initialStateCheck\": false\n               
       },\n                {\n                    \"name\": \"Switch Camera\",\n                   
       \"type\": \"Button\",\n                    \"id\": \"233bcc42-d9a0-4e2e-81fc-1ded76f95f33\",\n                   
+      \"expectedControlType\": \"Button\",\n                    \"processors\": \"\",\n                   
+      \"interactions\": \"\",\n                    \"initialStateCheck\": false\n               
+      },\n                {\n                    \"name\": \"Place Gem\",\n                   
+      \"type\": \"Button\",\n                    \"id\": \"8a580038-85ac-43da-9d67-1dfcc1ad7256\",\n                   
       \"expectedControlType\": \"Button\",\n                    \"processors\": \"\",\n                   
       \"interactions\": \"\",\n                    \"initialStateCheck\": false\n               
       }\n            ],\n            \"bindings\": [\n                {\n                   
@@ -431,8 +438,13 @@ MonoBehaviour:
       \"<Gamepad>/rightShoulder\",\n                    \"interactions\": \"\",\n                   
       \"processors\": \"\",\n                    \"groups\": \"\",\n                   
       \"action\": \"Switch Camera\",\n                    \"isComposite\": false,\n                   
-      \"isPartOfComposite\": false\n                }\n            ]\n        }\n   
-      ],\n    \"controlSchemes\": []\n}"
+      \"isPartOfComposite\": false\n                },\n                {\n                   
+      \"name\": \"\",\n                    \"id\": \"9934f82d-2f3c-40bc-a910-4fc2c402e54d\",\n                   
+      \"path\": \"<Gamepad>/buttonWest\",\n                    \"interactions\":
+      \"\",\n                    \"processors\": \"\",\n                    \"groups\":
+      \"\",\n                    \"action\": \"Place Gem\",\n                   
+      \"isComposite\": false,\n                    \"isPartOfComposite\": false\n               
+      }\n            ]\n        }\n    ],\n    \"controlSchemes\": []\n}"
     m_IsDirty: 0
   m_Toolbar:
     m_IsDirty: 0
@@ -736,9 +748,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -2.8621626, y: 14.304582, z: -2.9211838}
+    m_Target: {x: 4.6151514, y: -2.6377392, z: -0.1889}
     speed: 2
-    m_Value: {x: -2.8621626, y: 14.304582, z: -2.9211838}
+    m_Value: {x: 4.6151514, y: -2.6377392, z: -0.1889}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -785,13 +797,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.06887988, y: -0.8683742, z: 0.12590522, w: -0.4748288}
+    m_Target: {x: 0.3110801, y: 0.033125594, z: -0.010699805, w: 0.94981176}
     speed: 2
-    m_Value: {x: -0.06868639, y: -0.8690278, z: 0.12600003, w: -0.4734943}
+    m_Value: {x: 0.31106067, y: 0.033123527, z: -0.010699136, w: 0.94975245}
   m_Size:
     m_Target: 7.634507
     speed: 2
-    m_Value: 0.08525073
+    m_Value: 7.634507
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -856,23 +868,23 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs
+    - Assets/Scrips
     m_Globs: []
     m_OriginalText: 
     m_FilterByTypeIntersection: 0
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs
+  - Assets/Scrips
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\andre\Documents\GitHub\Semester-2-Assessment
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 10}
-    m_SelectedIDs: e4720000
-    m_LastClickedID: 29412
-    m_ExpandedIDs: 00000000d0720000e87200006c7e000000ca9a3b
+    scrollPos: {x: 0, y: 54}
+    m_SelectedIDs: 4a770000
+    m_LastClickedID: 30538
+    m_ExpandedIDs: 00000000487700004a7700004c770000867900008879000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -900,7 +912,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000d0720000
+    m_ExpandedIDs: 00000000487700004a7700004c770000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1029,10 +1041,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 738}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: be9dffffcc9dffff369effffe09efffff09effff369fffffaa9fffff80a0ffff12a2ffff4ca4ffff7ebeffff8cbeffff90befffff8bfffff7ac0ffff42c1ffff0ee6ffffe6e6ffff5ef0ffff70f6ffffd4faffffe2790000cc7b0000308300001a9500003097000058b600005eb60000b0b60000c6b80000e0b80000
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 86800000
+      m_LastClickedID: 32902
+      m_ExpandedIDs: 7cd9ffff56dcffffa6f1ffff68f4ffff04faffffd4faffff34720000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1129,18 +1141,18 @@ MonoBehaviour:
       y: 21
       width: 1064
       height: 590
-    m_Scale: {x: 1.118437, y: 1.118437}
-    m_Translation: {x: 512.9447, y: 291.99054}
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 532, y: 295}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -458.62634
-      y: -261.07016
-      width: 951.3276
-      height: 527.52185
+      x: -532
+      y: -295
+      width: 1064
+      height: 590
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1064, y: 611}
