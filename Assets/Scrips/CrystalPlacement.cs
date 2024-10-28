@@ -28,7 +28,6 @@ public class CrystalPlacement : MonoBehaviour
             {
                 crystal.SetActive(true);
                 portalIris.SetActive(true);
-                portalIris.GetComponent<BoxCollider>().enabled = true;
             }
         }
     }
