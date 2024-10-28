@@ -3,34 +3,33 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class GemPlacement : MonoBehaviour
+public class CrystalPlacement : MonoBehaviour
 {
-    public GameObject crystal;
-    public Transform holder;
-    private bool canPlaceCrystal = false;
+    [SerializeField] GameObject crystal;
+    [SerializeField] GameObject portalIris;
+
+    bool inRange;
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.CompareTag("Holder"))
-        {
-            canPlaceCrystal = true;
-        }
+        inRange = true;
     }
 
     private void OnTriggerExit(Collider other)
     {
-        if(other.CompareTag("Holder"))
-        {
-            canPlaceCrystal = false;
-        }
+        inRange = false;
     }
 
-    public void OnPlaceCrystal(InputAction.CallbackContext context)
+    private void Update()
     {
-        if(context.performed && canPlaceCrystal && crystal != null)
+        if(inRange)
         {
-            crystal.transform.position = holder.position;
-            crystal.transform.parent = holder;
+            if (Input.GetKeyDown(KeyCode.F))
+            {
+                crystal.SetActive(true);
+                portalIris.SetActive(true);
+                portalIris.GetComponent<BoxCollider>().enabled = true;
+            }
         }
     }
 }

@@ -3,36 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{327171DB-4687-3399-3B96-FEDAAB8778D5}|Assembly-CSharp.csproj|C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\assets\\scrips\\crystalplacement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{327171DB-4687-3399-3B96-FEDAAB8778D5}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\crystalplacement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{327171DB-4687-3399-3B96-FEDAAB8778D5}|Assembly-CSharp.csproj|c:\\users\\andre\\documents\\github\\semester-2-assessment\\assets\\scrips\\crystalcollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{327171DB-4687-3399-3B96-FEDAAB8778D5}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\crystalcollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{327171DB-4687-3399-3B96-FEDAAB8778D5}|Assembly-CSharp.csproj|C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\assets\\scrips\\unlockportal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{327171DB-4687-3399-3B96-FEDAAB8778D5}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\unlockportal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{327171DB-4687-3399-3B96-FEDAAB8778D5}|Assembly-CSharp.csproj|C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\assets\\scrips\\topdowncharactermover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{327171DB-4687-3399-3B96-FEDAAB8778D5}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\topdowncharactermover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{327171DB-4687-3399-3B96-FEDAAB8778D5}|Assembly-CSharp.csproj|C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\assets\\scrips\\player controller\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{327171DB-4687-3399-3B96-FEDAAB8778D5}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\player controller\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{327171DB-4687-3399-3B96-FEDAAB8778D5}|Assembly-CSharp.csproj|c:\\users\\andre\\documents\\github\\semester-2-assessment\\assets\\scrips\\playerreset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{327171DB-4687-3399-3B96-FEDAAB8778D5}|Assembly-CSharp.csproj|C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\assets\\scrips\\playerreset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{327171DB-4687-3399-3B96-FEDAAB8778D5}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\playerreset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{327171DB-4687-3399-3B96-FEDAAB8778D5}|Assembly-CSharp.csproj|c:\\users\\andre\\documents\\github\\semester-2-assessment\\assets\\scrips\\crystalplacement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{327171DB-4687-3399-3B96-FEDAAB8778D5}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\crystalplacement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{327171DB-4687-3399-3B96-FEDAAB8778D5}|Assembly-CSharp.csproj|C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\assets\\scrips\\pressureplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{327171DB-4687-3399-3B96-FEDAAB8778D5}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\pressureplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{327171DB-4687-3399-3B96-FEDAAB8778D5}|Assembly-CSharp.csproj|C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\assets\\scrips\\wand\\magicblastlvl2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{327171DB-4687-3399-3B96-FEDAAB8778D5}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\wand\\magicblastlvl2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{327171DB-4687-3399-3B96-FEDAAB8778D5}|Assembly-CSharp.csproj|C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\assets\\scrips\\dialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{327171DB-4687-3399-3B96-FEDAAB8778D5}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\dialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{327171DB-4687-3399-3B96-FEDAAB8778D5}|Assembly-CSharp.csproj|C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\assets\\scrips\\unlockportal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{327171DB-4687-3399-3B96-FEDAAB8778D5}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\unlockportal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\andre\\documents\\github\\semester-2-assessment\\assets\\scrips\\jumpcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,8 +51,12 @@
       "RelativeMoniker": "D:0:0:{327171DB-4687-3399-3B96-FEDAAB8778D5}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\inputhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{327171DB-4687-3399-3B96-FEDAAB8778D5}|Assembly-CSharp.csproj|C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\Assets\\Scrips\\GemPlacement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{327171DB-4687-3399-3B96-FEDAAB8778D5}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scrips\\GemPlacement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\Assets\\Scrips\\Player Controller\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scrips\\Player Controller\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\Assets\\Scrips\\Wand\\MagicBlastLvl2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scrips\\Wand\\MagicBlastLvl2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,37 +66,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PlayerReset.cs",
-              "DocumentMoniker": "C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\Assets\\Scrips\\PlayerReset.cs",
-              "RelativeDocumentMoniker": "Assets\\Scrips\\PlayerReset.cs",
-              "ToolTip": "C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\Assets\\Scrips\\PlayerReset.cs",
-              "RelativeToolTip": "Assets\\Scrips\\PlayerReset.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "DocumentIndex": 1,
+              "Title": "CrystalCollection.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\Assets\\Scrips\\CrystalCollection.cs",
+              "RelativeDocumentMoniker": "Assets\\Scrips\\CrystalCollection.cs",
+              "ToolTip": "C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\Assets\\Scrips\\CrystalCollection.cs",
+              "RelativeToolTip": "Assets\\Scrips\\CrystalCollection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T03:12:32.026Z",
+              "WhenOpened": "2024-10-28T06:02:54.804Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "CrystalPlacement.cs",
               "DocumentMoniker": "C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\Assets\\Scrips\\CrystalPlacement.cs",
               "RelativeDocumentMoniker": "Assets\\Scrips\\CrystalPlacement.cs",
               "ToolTip": "C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\Assets\\Scrips\\CrystalPlacement.cs",
               "RelativeToolTip": "Assets\\Scrips\\CrystalPlacement.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAuwCEAAAAJAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwB0AAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-25T03:03:06.008Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "UnlockPortal.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\Assets\\Scrips\\UnlockPortal.cs",
+              "RelativeDocumentMoniker": "Assets\\Scrips\\UnlockPortal.cs",
+              "ToolTip": "C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\Assets\\Scrips\\UnlockPortal.cs",
+              "RelativeToolTip": "Assets\\Scrips\\UnlockPortal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T10:45:43.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\Assets\\Scrips\\Player Controller\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scrips\\Player Controller\\PlayerController.cs",
@@ -104,8 +116,7 @@
               "RelativeToolTip": "Assets\\Scrips\\Player Controller\\PlayerController.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAxwDIAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T08:02:15.352Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-22T08:02:15.352Z"
             },
             {
               "$type": "Document",
@@ -122,18 +133,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "UnlockPortal.cs",
-              "DocumentMoniker": "C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\Assets\\Scrips\\UnlockPortal.cs",
-              "RelativeDocumentMoniker": "Assets\\Scrips\\UnlockPortal.cs",
-              "ToolTip": "C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\Assets\\Scrips\\UnlockPortal.cs",
-              "RelativeToolTip": "Assets\\Scrips\\UnlockPortal.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T10:45:43.229Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "JumpController.cs",
               "DocumentMoniker": "C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\Assets\\Scrips\\JumpController.cs",
               "RelativeDocumentMoniker": "Assets\\Scrips\\JumpController.cs",
@@ -145,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "Portal.cs",
               "DocumentMoniker": "C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\Assets\\Scrips\\Portal.cs",
               "RelativeDocumentMoniker": "Assets\\Scrips\\Portal.cs",
@@ -157,7 +156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "MainMenu.cs",
               "DocumentMoniker": "C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\Assets\\Scrips\\MainMenu.cs",
               "RelativeDocumentMoniker": "Assets\\Scrips\\MainMenu.cs",
@@ -169,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "CameraManager.cs",
               "DocumentMoniker": "C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\Assets\\Scrips\\CameraManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scrips\\CameraManager.cs",
@@ -181,7 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "TopDownCharacterMover.cs",
               "DocumentMoniker": "C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\Assets\\Scrips\\TopDownCharacterMover.cs",
               "RelativeDocumentMoniker": "Assets\\Scrips\\TopDownCharacterMover.cs",
@@ -189,12 +188,23 @@
               "RelativeToolTip": "Assets\\Scrips\\TopDownCharacterMover.cs",
               "ViewState": "AQIAADsAAAAAAAAAAAAUwEgAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T12:05:06.698Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-22T12:05:06.698Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
+              "Title": "PlayerReset.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\Assets\\Scrips\\PlayerReset.cs",
+              "RelativeDocumentMoniker": "Assets\\Scrips\\PlayerReset.cs",
+              "ToolTip": "C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\Assets\\Scrips\\PlayerReset.cs",
+              "RelativeToolTip": "Assets\\Scrips\\PlayerReset.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T03:12:32.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "MagicBlastLvl2.cs",
               "DocumentMoniker": "C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\Assets\\Scrips\\Wand\\MagicBlastLvl2.cs",
               "RelativeDocumentMoniker": "Assets\\Scrips\\Wand\\MagicBlastLvl2.cs",
@@ -206,19 +216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "GemPlacement.cs",
-              "DocumentMoniker": "C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\Assets\\Scrips\\GemPlacement.cs",
-              "RelativeDocumentMoniker": "Assets\\Scrips\\GemPlacement.cs",
-              "ToolTip": "C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\Assets\\Scrips\\GemPlacement.cs",
-              "RelativeToolTip": "Assets\\Scrips\\GemPlacement.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T03:02:17.332Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "InputHandler.cs",
               "DocumentMoniker": "C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\Assets\\Scrips\\InputHandler.cs",
               "RelativeDocumentMoniker": "Assets\\Scrips\\InputHandler.cs",
@@ -230,7 +228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "PressurePlate.cs",
               "DocumentMoniker": "C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\Assets\\Scrips\\PressurePlate.cs",
               "RelativeDocumentMoniker": "Assets\\Scrips\\PressurePlate.cs",
