@@ -459,6 +459,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e81c703313e693b4c990d39e050bc060, type: 3}
+--- !u!114 &331171649 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5643186576173095725, guid: a26749e4e598beb4aa1f3922359c639b, type: 3}
+  m_PrefabInstance: {fileID: 1851109373}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f59d53e6a78b3a844942bb4e805e7134, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &359837051
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -538,6 +549,10 @@ PrefabInstance:
       propertyPath: moveSpeed
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 3350340001183207322, guid: 79f0fa4052a60ef4f93e4a09a32dad58, type: 3}
+      propertyPath: CameraManager
+      value: 
+      objectReference: {fileID: 331171649}
     - target: {fileID: 3350340001183207322, guid: 79f0fa4052a60ef4f93e4a09a32dad58, type: 3}
       propertyPath: groundDistance
       value: 1.5
@@ -800,7 +815,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 294953152410410081, guid: a1b886ff28bd6f04f918675e5c6ca5cf, type: 3}
   m_PrefabInstance: {fileID: 1411393047}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1342329063}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 45e653bab7fb20e499bda25e1b646fea, type: 3}
@@ -1047,8 +1062,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 957514770}
-  m_LocalRotation: {x: 0.22568478, y: -0.33200955, z: 0.082142524, w: 0.91218895}
-  m_LocalPosition: {x: 6.56, y: 15.14, z: -47.58}
+  m_LocalRotation: {x: 0.23198517, y: 0.25124377, z: -0.06216025, w: 0.9376543}
+  m_LocalPosition: {x: -9.62, y: 18.4, z: -53.29}
   m_LocalScale: {x: 2.573835, y: 2.573835, z: 2.573835}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1300,27 +1315,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dde06c6befd78f4439a2e8653a2fa381, type: 3}
---- !u!1 &1342329063 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 294953152410410080, guid: a1b886ff28bd6f04f918675e5c6ca5cf, type: 3}
-  m_PrefabInstance: {fileID: 1411393047}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1342329065
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1342329063}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f59d53e6a78b3a844942bb4e805e7134, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cameras: []
-  cam1: {fileID: 294953152410410081, guid: a1b886ff28bd6f04f918675e5c6ca5cf, type: 3}
-  cam2: {fileID: 124599309726230104, guid: 47aaa46f8d2305e4ba967c78ee31c14c, type: 3}
-  startCam: {fileID: 294953152410410081, guid: a1b886ff28bd6f04f918675e5c6ca5cf, type: 3}
 --- !u!1001 &1401519596
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1512,7 +1506,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 124599309726230104, guid: 47aaa46f8d2305e4ba967c78ee31c14c, type: 3}
       propertyPath: m_Priority
-      value: 20
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 124599309726230104, guid: 47aaa46f8d2305e4ba967c78ee31c14c, type: 3}
       propertyPath: m_Lens.NearClipPlane

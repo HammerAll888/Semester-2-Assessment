@@ -61,6 +61,7 @@
     <Compile Include="Assets\Scrips\InputHandler.cs" />
     <Compile Include="Assets\Scrips\MovingPlatform.cs" />
     <Compile Include="Assets\Scrips\Wand\MagicBlastTest.cs" />
+    <Compile Include="Assets\Scrips\CrystalCollection.cs" />
     <Compile Include="Assets\Scrips\Quit.cs" />
     <Compile Include="Assets\Scrips\Wand\Wand.cs" />
     <Compile Include="Assets\Prefabs\Player Items\READ ME.cs" />
@@ -72,7 +73,6 @@
     <Compile Include="Assets\Scrips\Dialogue.cs" />
     <Compile Include="Assets\Scrips\PressurePlate.cs" />
     <Compile Include="Assets\Scrips\TopDownCharacterMover.cs" />
-    <Compile Include="Assets\Scrips\CrystalCollection.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
