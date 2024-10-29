@@ -7,6 +7,7 @@ public class CrystalCollection : MonoBehaviour
 {
     [SerializeField] GameObject crystal;
     [SerializeField] GameObject crystalHolder;
+    [SerializeField] GameObject icon;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -14,6 +15,7 @@ public class CrystalCollection : MonoBehaviour
         {
             crystal.SetActive(false);
             crystalHolder.GetComponent<BoxCollider>().enabled = true;
+            icon.SetActive(true);
         }
     }
 }

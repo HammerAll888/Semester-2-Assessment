@@ -5,8 +5,9 @@ using UnityEngine.InputSystem;
 
 public class CrystalPlacement : MonoBehaviour
 {
-    [SerializeField] GameObject crystal;
-    [SerializeField] GameObject portalIris;
+    [SerializeField] GameObject empty;
+    [SerializeField] GameObject filled;
+    [SerializeField] GameObject icon;
 
     bool inRange;
 
@@ -26,8 +27,9 @@ public class CrystalPlacement : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.F))
             {
-                crystal.SetActive(true);
-                portalIris.SetActive(true);
+                icon.SetActive(false);
+                empty.SetActive(false);
+                filled.SetActive(true);
             }
         }
     }
