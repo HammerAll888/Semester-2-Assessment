@@ -1,4 +1,4 @@
-Library: C:\Users\a240067\Documents\GitHub\Semester-2-Assessment\Temp\StagingArea\Data\Plugins\x86_64\lib_burst_generated
+Library: C:\Users\A240067\Documents\GitHub\Semester-2-Assessment\Temp\StagingArea\Data\Plugins\x86_64\lib_burst_generated
 --platform=Windows
 --backend=burst-llvm-14
 --target=X64_SSE2
@@ -149,10 +149,10 @@ Library: C:\Users\a240067\Documents\GitHub\Semester-2-Assessment\Temp\StagingAre
 --compilation-defines=TIMELINE_FRAMEACCURATE
 --linker-options=PdbAltPath="Semester 2 Assessment_Data/Plugins/x86_64/lib_burst_generated.pdb"
 --generate-link-xml=Temp\burst.link.xml
---temp-folder=C:\Users\a240067\Documents\GitHub\Semester-2-Assessment\Temp\Burst
+--temp-folder=C:\Users\A240067\Documents\GitHub\Semester-2-Assessment\Temp\Burst
 --key-folder=C:/Program Files/Unity/Hub/Editor/2021.3.31f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport
---decode-folder=C:\Users\a240067\Documents\GitHub\Semester-2-Assessment\Library\Burst
---output=C:\Users\a240067\Documents\GitHub\Semester-2-Assessment\Temp\StagingArea\Data\Plugins\x86_64\lib_burst_generated
+--decode-folder=C:\Users\A240067\Documents\GitHub\Semester-2-Assessment\Library\Burst
+--output=C:\Users\A240067\Documents\GitHub\Semester-2-Assessment\Temp\StagingArea\Data\Plugins\x86_64\lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
 
 --method=Unity.Burst.BurstCompiler+BurstCompilerHelper, Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::IsBurstEnabled()--8c2be93e18276203cbd918daa2748a10
@@ -318,10 +318,10 @@ Library: C:\Users\a240067\Documents\GitHub\Semester-2-Assessment\Temp\StagingAre
 --compilation-defines=TIMELINE_FRAMEACCURATE
 --linker-options=PdbAltPath="Semester 2 Assessment_Data/Plugins/x86_64/lib_burst_generated.pdb"
 --generate-link-xml=Temp\burst.link.xml
---temp-folder=C:\Users\a240067\Documents\GitHub\Semester-2-Assessment\Temp\Burst
+--temp-folder=C:\Users\A240067\Documents\GitHub\Semester-2-Assessment\Temp\Burst
 --key-folder=C:/Program Files/Unity/Hub/Editor/2021.3.31f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport
---decode-folder=C:\Users\a240067\Documents\GitHub\Semester-2-Assessment\Library\Burst
---output=C:\Users\a240067\Documents\GitHub\Semester-2-Assessment\Temp\StagingArea\Data\Plugins\x86_64\lib_burst_generated
+--decode-folder=C:\Users\A240067\Documents\GitHub\Semester-2-Assessment\Library\Burst
+--output=C:\Users\A240067\Documents\GitHub\Semester-2-Assessment\Temp\StagingArea\Data\Plugins\x86_64\lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
 
 --method=Unity.Burst.BurstCompiler+BurstCompilerHelper, Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::IsBurstEnabled()--8c2be93e18276203cbd918daa2748a10

@@ -814,7 +814,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b45fc1c83077e2a45a70c502075b68b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneName: Level 2
+  SceneName: Thank You
 --- !u!65 &521277807
 BoxCollider:
   m_ObjectHideFlags: 0
