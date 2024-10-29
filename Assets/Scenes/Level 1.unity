@@ -763,7 +763,7 @@ PrefabInstance:
     - target: {fileID: 3541928464074294024, guid: e81c703313e693b4c990d39e050bc060, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 9468373edceb1334d91215c15de1bf3c, type: 2}
+      objectReference: {fileID: 2100000, guid: 90dde0d5e31f92a4e963fe1a8ba3a2cc, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e81c703313e693b4c990d39e050bc060, type: 3}
 --- !u!1 &471562502
@@ -1576,7 +1576,7 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.001
+  near clip plane: -8.37
   far clip plane: 5000
   field of view: 47.2
   orthographic: 1
@@ -1994,7 +1994,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 294953152410410081, guid: a1b886ff28bd6f04f918675e5c6ca5cf, type: 3}
       propertyPath: m_Lens.NearClipPlane
-      value: 0.001
+      value: -8.37
       objectReference: {fileID: 0}
     - target: {fileID: 294953152410410081, guid: a1b886ff28bd6f04f918675e5c6ca5cf, type: 3}
       propertyPath: m_Lens.OrthographicSize
@@ -2108,7 +2108,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 124599309726230104, guid: 47aaa46f8d2305e4ba967c78ee31c14c, type: 3}
       propertyPath: m_Lens.NearClipPlane
-      value: 0.001
+      value: -8.37
       objectReference: {fileID: 0}
     - target: {fileID: 124599309726230104, guid: 47aaa46f8d2305e4ba967c78ee31c14c, type: 3}
       propertyPath: m_Lens.OrthographicSize
