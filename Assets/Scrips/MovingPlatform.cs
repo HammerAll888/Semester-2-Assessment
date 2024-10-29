@@ -4,39 +4,54 @@ using UnityEngine;
 
 public class MovingPlatform : MonoBehaviour
 {
-    [SerializeField] GameObject HiddenPlatform;
-    public Transform hiddenplatform;
-    public float moveDistance = 2f;
-    public float moveSpeed = 2f;
-    private Vector3 originalPos;
-    private bool isMoving = false;
+    [SerializeField] private WaypointPath _waypointPath;
+    [SerializeField] private float _speed;
+
+    private int _targetWaypointIndex;
+
+    private Transform _previousWaypoint;
+    private Transform _targetWaypoint;
+
+    private float _timeToWaypoint;
+    private float _elapsedTime;
 
     private void Start()
     {
-        originalPos = hiddenplatform.position;
-    }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if(other.CompareTag("magicBlast"))
-        {
-            isMoving = true;
-        }
+        targetNextWaypoint();
     }
 
     private void Update()
     {
-        if(isMoving)
+        _elapsedTime += Time.deltaTime;
+
+        float _elapsedPercentage = _elapsedTime / _timeToWaypoint;
+        transform.position = Vector3.Lerp(_previousWaypoint.position, _targetWaypoint.position, _elapsedPercentage);
+
+        if(_elapsedPercentage >= 1)
         {
-            MovePlatformUp();
+            targetNextWaypoint();
         }
     }
 
-    private void MovePlatformUp()
+    private void targetNextWaypoint()
     {
-        if(hiddenplatform.position.y < originalPos.y + moveDistance)
-        {
-            hiddenplatform.position += new Vector3(0, moveSpeed * Time.deltaTime, 0);
-        }
+        _previousWaypoint = _waypointPath.GetWaypoint(_targetWaypointIndex);
+        _targetWaypointIndex = _waypointPath.GetNextWaypointIndex(_targetWaypointIndex);
+        _targetWaypoint = _waypointPath.GetWaypoint(_targetWaypointIndex);
+
+        _elapsedTime = 0;
+
+        float distanceToWaypoint = Vector3.Distance(_previousWaypoint.position, _targetWaypoint.position);
+        _timeToWaypoint = distanceToWaypoint / _speed;
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        other.transform.SetParent(transform);
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        other.transform.SetParent(null);
     }
 }
