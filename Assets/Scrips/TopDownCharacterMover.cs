@@ -18,6 +18,7 @@ public class TopDownCharacterMover : MonoBehaviour
     //List of variables needed to apply jump force
     public float jumpForce = 5;
     public float groundDistance = 1;
+    public float gravityMultiplier = 2f;
 
     Rigidbody rb;
 
@@ -26,19 +27,14 @@ public class TopDownCharacterMover : MonoBehaviour
     {
         _input = GetComponent<InputHandler>();
         rb = GetComponent<Rigidbody>();
-    }
-
-    //Checks if the character is on the ground
-    bool isGrounded()
-    {
-        return Physics.Raycast(transform.position, Vector3.down, groundDistance);
+        rb.useGravity = false;
     }
 
     void Update()
     {
         //Makes the character face the direction of travel
         var targetVector = new Vector3(_input.InputVector.x, 0, _input.InputVector.y);
-        
+
         var movementVector = MoveTowardTarget(targetVector);
 
         if (!rotateTowardsMouse)
@@ -47,20 +43,30 @@ public class TopDownCharacterMover : MonoBehaviour
             RotateTowardMovementVector();
 
         //Detects when the player will rotate the camera
-        if(Input.GetKeyDown(KeyCode.Q))
+        if (Input.GetKeyDown(KeyCode.Q))
         {
             CameraManager.SwitchCamera(CameraManager.cam1);
         }
-        if(Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.E))
         {
             CameraManager.SwitchCamera(CameraManager.cam2);
         }
 
         //This will make the character jump on space bar input
-        if(Input.GetKeyDown(KeyCode.Space) && isGrounded())
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded())
         {
             rb.velocity = Vector3.up * jumpForce;
         }
+
+        if (!isGrounded())
+        {
+            rb.velocity += Vector3.down * gravityMultiplier * Physics.gravity.y * Time.deltaTime;
+        }
+    }
+
+    bool isGrounded()
+    {
+        return Physics.Raycast(transform.position, Vector3.down, groundDistance);
     }
 
     private void RotateTowardMovementVector()
@@ -78,7 +84,7 @@ public class TopDownCharacterMover : MonoBehaviour
     //Makes the character face the direction of travel
     private void RotateTowardMovementVector(Vector3 movementVector)
     {
-        if(movementVector.magnitude == 0) { return; }
+        if (movementVector.magnitude == 0) { return; }
         var rotation = Quaternion.LookRotation(movementVector);
         transform.rotation = Quaternion.RotateTowards(transform.rotation, rotation, rotateSpeed);
     }
@@ -94,3 +100,4 @@ public class TopDownCharacterMover : MonoBehaviour
         return targetVector;
     }
 }
+
