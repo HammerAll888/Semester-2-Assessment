@@ -197,7 +197,7 @@ GameObject:
   - component: {fileID: 3350340001183207302}
   - component: {fileID: 3350340001183207324}
   - component: {fileID: 3350340001183207323}
-  - component: {fileID: 3350340001183207322}
+  - component: {fileID: 893440048025402941}
   - component: {fileID: 3724151486683443664}
   m_Layer: 0
   m_Name: Player_Test
@@ -315,7 +315,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68819cb101843e94ca80af0c9a780ad4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &3350340001183207322
+--- !u!114 &893440048025402941
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -327,13 +327,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8caef62cb8cadf4db68efa71521a14f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CameraManager: {fileID: 5643186576173095725, guid: a26749e4e598beb4aa1f3922359c639b, type: 3}
+  CameraManager: {fileID: 0}
   moveSpeed: 4
   cam: {fileID: 0}
-  rotateSpeed: 15
+  rotateSpeed: 5000
   rotateTowardsMouse: 1
   jumpForce: 5
   groundDistance: 1
+  gravityMultiplier: -9
 --- !u!114 &3724151486683443664
 MonoBehaviour:
   m_ObjectHideFlags: 0

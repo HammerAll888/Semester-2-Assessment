@@ -71,13 +71,17 @@ public class TopDownCharacterMover : MonoBehaviour
 
     private void RotateTowardMovementVector()
     {
+        Plane groundPlane = new Plane(Vector3.up, transform.position);
         Ray ray = cam.ScreenPointToRay(_input.MousePosition);
 
-        if (Physics.Raycast(ray, out RaycastHit hitInfo, maxDistance: 300f))
+        if(groundPlane.Raycast(ray, out float distance))
         {
-            var target = hitInfo.point;
-            target.y = transform.position.y;
-            transform.LookAt(target);
+            Vector3 targetPoint = ray.GetPoint(distance);
+
+            Vector3 direction = (targetPoint - transform.position).normalized;
+
+            Quaternion targetRotation = Quaternion.LookRotation(direction);
+            transform.rotation = Quaternion.RotateTowards(transform.rotation, targetRotation, rotateSpeed * Time.deltaTime);
         }
     }
 
@@ -100,4 +104,3 @@ public class TopDownCharacterMover : MonoBehaviour
         return targetVector;
     }
 }
-

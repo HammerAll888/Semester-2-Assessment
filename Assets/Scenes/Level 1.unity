@@ -557,6 +557,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 893440048025402941, guid: 79f0fa4052a60ef4f93e4a09a32dad58, type: 3}
+      propertyPath: cam
+      value: 
+      objectReference: {fileID: 957514772}
+    - target: {fileID: 893440048025402941, guid: 79f0fa4052a60ef4f93e4a09a32dad58, type: 3}
+      propertyPath: jumpForce
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 893440048025402941, guid: 79f0fa4052a60ef4f93e4a09a32dad58, type: 3}
+      propertyPath: moveSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 893440048025402941, guid: 79f0fa4052a60ef4f93e4a09a32dad58, type: 3}
+      propertyPath: CameraManager
+      value: 
+      objectReference: {fileID: 331171649}
+    - target: {fileID: 893440048025402941, guid: 79f0fa4052a60ef4f93e4a09a32dad58, type: 3}
+      propertyPath: groundDistance
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 893440048025402941, guid: 79f0fa4052a60ef4f93e4a09a32dad58, type: 3}
+      propertyPath: gravityMultiplier
+      value: -4.5
+      objectReference: {fileID: 0}
     - target: {fileID: 1907468297467524289, guid: 79f0fa4052a60ef4f93e4a09a32dad58, type: 3}
       propertyPath: m_IsActive
       value: 0
