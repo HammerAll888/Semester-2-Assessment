@@ -15,6 +15,7 @@ public class Dialogue : MonoBehaviour
 
     //References the player object
     [SerializeField] GameObject Player;
+    [SerializeField] GameObject Wand;
 
     //Will start the dialogue when the game starts
     void Start()
@@ -69,7 +70,8 @@ public class Dialogue : MonoBehaviour
         else
         {
             gameObject.SetActive(false); //Deactivates the dialogue box when the last line is complete
-            Player.SetActive(true); //This will turn the player and all the components attached on
+            Player.GetComponent<TopDownCharacterMover>().enabled = true;
+            Wand.GetComponent<Wand>().enabled = true;
         }
     }
 }
