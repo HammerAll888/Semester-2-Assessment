@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Wand
-  m_Shader: {fileID: 4800000, guid: c00c195e7a9825c4c9a4fdaa0a20dc73, type: 3}
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -71,6 +71,7 @@ Material:
     - _Parallax: 0.02
     - _RimAmount: 0.716
     - _RimThreshold: 0.1
+    - _ShadowBlur: 0
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
