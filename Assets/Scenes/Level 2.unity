@@ -1596,7 +1596,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 294953152410410081, guid: a1b886ff28bd6f04f918675e5c6ca5cf, type: 3}
       propertyPath: m_Lens.NearClipPlane
-      value: -3.95
+      value: -25.3
       objectReference: {fileID: 0}
     - target: {fileID: 294953152410410081, guid: a1b886ff28bd6f04f918675e5c6ca5cf, type: 3}
       propertyPath: m_Lens.OrthographicSize
@@ -1612,7 +1612,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 294953152410410094, guid: a1b886ff28bd6f04f918675e5c6ca5cf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.2515187
+      value: -1.4
       objectReference: {fileID: 0}
     - target: {fileID: 294953152410410094, guid: a1b886ff28bd6f04f918675e5c6ca5cf, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1620,7 +1620,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 294953152410410094, guid: a1b886ff28bd6f04f918675e5c6ca5cf, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.734497
+      value: 9.97
       objectReference: {fileID: 0}
     - target: {fileID: 294953152410410094, guid: a1b886ff28bd6f04f918675e5c6ca5cf, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1658,8 +1658,8 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 4f276588c49f43141ab9fa0b89dc43d7, type: 3}
   m_PrefabInstance: {fileID: 522475473}
   m_PrefabAsset: {fileID: 0}
---- !u!65 &116173017
-BoxCollider:
+--- !u!64 &116173014
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1668,9 +1668,10 @@ BoxCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.6178946, y: 0.663419, z: 2.652768}
-  m_Center: {x: 0.00000005960464, y: -0.04104122, z: 0}
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6807878376620363269, guid: 4f276588c49f43141ab9fa0b89dc43d7, type: 3}
 --- !u!43 &163176591
 Mesh:
   m_ObjectHideFlags: 0
@@ -3591,7 +3592,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 124599309726230103, guid: 47aaa46f8d2305e4ba967c78ee31c14c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.8743014
+      value: -1.7772174
       objectReference: {fileID: 0}
     - target: {fileID: 124599309726230103, guid: 47aaa46f8d2305e4ba967c78ee31c14c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3599,7 +3600,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 124599309726230103, guid: 47aaa46f8d2305e4ba967c78ee31c14c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 5.267261
+      value: 19.971758
       objectReference: {fileID: 0}
     - target: {fileID: 124599309726230103, guid: 47aaa46f8d2305e4ba967c78ee31c14c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3635,7 +3636,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 124599309726230104, guid: 47aaa46f8d2305e4ba967c78ee31c14c, type: 3}
       propertyPath: m_Lens.NearClipPlane
-      value: -3.95
+      value: -25.3
       objectReference: {fileID: 0}
     - target: {fileID: 124599309726230104, guid: 47aaa46f8d2305e4ba967c78ee31c14c, type: 3}
       propertyPath: m_Lens.OrthographicSize
@@ -20605,7 +20606,7 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: -3.95
+  near clip plane: -25.3
   far clip plane: 5000
   field of view: 47.2
   orthographic: 1
@@ -20633,7 +20634,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1434938205}
   m_LocalRotation: {x: 0.22760579, y: -0.45985952, z: 0.12321901, w: 0.8494363}
-  m_LocalPosition: {x: 7.2515187, y: 5.0000005, z: -4.734497}
+  m_LocalPosition: {x: -1.4, y: 5.0000005, z: 9.97}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -25752,6 +25753,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2224936315500981483, guid: 54e43009ddf332b41aed74544a4a66ff, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4332885096564334254, guid: 54e43009ddf332b41aed74544a4a66ff, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -25812,6 +25817,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 4332885096564334258, guid: 54e43009ddf332b41aed74544a4a66ff, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7799904687361546845, guid: 54e43009ddf332b41aed74544a4a66ff, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -25843,6 +25852,7 @@ MonoBehaviour:
   crystal: {fileID: 445337317}
   crystalHolder: {fileID: 1162875589}
   icon: {fileID: 1023395095}
+  dialogueCollider: {fileID: 0}
 --- !u!43 &1763809224
 Mesh:
   m_ObjectHideFlags: 0

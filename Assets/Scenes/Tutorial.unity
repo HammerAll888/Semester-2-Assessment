@@ -972,7 +972,11 @@ PrefabInstance:
       objectReference: {fileID: 2022556299}
     - target: {fileID: 2177893452932116234, guid: 54e43009ddf332b41aed74544a4a66ff, type: 3}
       propertyPath: gravityMultiplier
-      value: -3
+      value: -2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2224936315500981483, guid: 54e43009ddf332b41aed74544a4a66ff, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4332885096564334254, guid: 54e43009ddf332b41aed74544a4a66ff, type: 3}
       propertyPath: m_RootOrder
