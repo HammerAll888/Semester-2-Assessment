@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.ProBuilder.MeshOperations;
 
 public class TopDownCharacterMover : MonoBehaviour
 {
@@ -21,6 +22,12 @@ public class TopDownCharacterMover : MonoBehaviour
     public float gravityMultiplier = 2f;
 
     Rigidbody rb;
+    private Animator animator;
+
+    private void Start()
+    {
+        animator = GetComponent<Animator>();
+    }
 
     //External components needed for movemnet
     private void Awake()
@@ -41,6 +48,9 @@ public class TopDownCharacterMover : MonoBehaviour
             RotateTowardMovementVector(movementVector);
         else
             RotateTowardMovementVector();
+
+        bool isMoving = targetVector.magnitude > 0;
+        animator.SetBool("isMoving", isMoving);
 
         //Detects when the player will rotate the camera
         if (Input.GetKeyDown(KeyCode.Q))

@@ -10,6 +10,7 @@ public class CrystalCollection : MonoBehaviour
     [SerializeField] GameObject icon;
     [SerializeField] GameObject dialogueCollider;
 
+    //When the player enteres the box collider it will turn on and off various gmaeObjects
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "manaCrystal")

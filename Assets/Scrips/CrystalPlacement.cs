@@ -9,18 +9,21 @@ public class CrystalPlacement : MonoBehaviour
     [SerializeField] GameObject filled;
     [SerializeField] GameObject icon;
 
-    bool inRange;
+    bool inRange;   //Defines when the player is in the box collider
 
+    //Makes the player in range of the crystal bot
     private void OnTriggerEnter(Collider other)
     {
         inRange = true;
     }
 
+    //Makes the player no longer in range of the crystal pot
     private void OnTriggerExit(Collider other)
     {
         inRange = false;
     }
 
+    //Will only activate when the player is in range
     private void Update()
     {
         if(inRange)

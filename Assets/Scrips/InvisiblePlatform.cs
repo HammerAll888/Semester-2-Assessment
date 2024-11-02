@@ -6,17 +6,18 @@ public class InvisiblePlatform : MonoBehaviour
 {
     [SerializeField] GameObject invisiblePlatform;
 
+    //Will make the platofrm invisible when the buttons are pressed
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Q))
         {
-            StartCoroutine(TogglePlatform(false, 1.2f));
+            StartCoroutine(TogglePlatform(false, 1.2f));    //Makes the program wait 1.2 seconds before turning off the plaform
         }
         else
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
-                StartCoroutine(TogglePlatform(true, 1.2f));
+                StartCoroutine(TogglePlatform(true, 1.2f));     //Makes the program wait 1.2 seconds before turning off the plaform
             }
         }
     }
