@@ -898,7 +898,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 783975}
   lines:
-  - It looks like the crystal I found can be placed in this pot
+  - Looks like the crystal goes here
   - Press F to interact
   textSpeed: 0.1
   Player: {fileID: 1542929831}
@@ -2114,7 +2114,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 1546751123}
   lines:
-  - Ah, so this is the place, doesn't look to challenging.
+  - Ah, so this is the place, doesn't look too challenging.
   - Use WASD keys to move,
   - Space bar to jump,
   - and Q/E to rotate Camera
