@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{327171DB-4687-3399-3B96-FEDAAB8778D5}|Assembly-CSharp.csproj|C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\assets\\scrips\\crystalcollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{327171DB-4687-3399-3B96-FEDAAB8778D5}|Assembly-CSharp.csproj|C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\assets\\scrips\\wand\\wand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{327171DB-4687-3399-3B96-FEDAAB8778D5}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\wand\\wand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{327171DB-4687-3399-3B96-FEDAAB8778D5}|Assembly-CSharp.csproj|c:\\users\\andre\\documents\\github\\semester-2-assessment\\assets\\scrips\\crystalcollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{327171DB-4687-3399-3B96-FEDAAB8778D5}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\crystalcollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,16 +15,12 @@
       "RelativeMoniker": "D:0:0:{327171DB-4687-3399-3B96-FEDAAB8778D5}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\crystalplacement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{327171DB-4687-3399-3B96-FEDAAB8778D5}|Assembly-CSharp.csproj|c:\\users\\andre\\documents\\github\\semester-2-assessment\\assets\\scrips\\activatedialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{327171DB-4687-3399-3B96-FEDAAB8778D5}|Assembly-CSharp.csproj|C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\assets\\scrips\\activatedialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{327171DB-4687-3399-3B96-FEDAAB8778D5}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\activatedialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{327171DB-4687-3399-3B96-FEDAAB8778D5}|Assembly-CSharp.csproj|C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\assets\\scrips\\dialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{327171DB-4687-3399-3B96-FEDAAB8778D5}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\dialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{327171DB-4687-3399-3B96-FEDAAB8778D5}|Assembly-CSharp.csproj|C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\assets\\scrips\\wand\\wand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{327171DB-4687-3399-3B96-FEDAAB8778D5}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\wand\\wand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{327171DB-4687-3399-3B96-FEDAAB8778D5}|Assembly-CSharp.csproj|C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\assets\\scrips\\topdowncharactermover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -58,11 +58,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Activatedialogue.cs",
               "DocumentMoniker": "C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\Assets\\Scrips\\Activatedialogue.cs",
               "RelativeDocumentMoniker": "Assets\\Scrips\\Activatedialogue.cs",
@@ -70,24 +70,24 @@
               "RelativeToolTip": "Assets\\Scrips\\Activatedialogue.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T03:02:23.208Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-02T03:02:23.208Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Wand.cs",
               "DocumentMoniker": "C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\Assets\\Scrips\\Wand\\Wand.cs",
               "RelativeDocumentMoniker": "Assets\\Scrips\\Wand\\Wand.cs",
               "ToolTip": "C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\Assets\\Scrips\\Wand\\Wand.cs",
               "RelativeToolTip": "Assets\\Scrips\\Wand\\Wand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T11:30:07.146Z"
+              "WhenOpened": "2024-11-01T11:30:07.146Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CrystalCollection.cs",
               "DocumentMoniker": "C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\Assets\\Scrips\\CrystalCollection.cs",
               "RelativeDocumentMoniker": "Assets\\Scrips\\CrystalCollection.cs",
@@ -100,7 +100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CrystalPlacement.cs",
               "DocumentMoniker": "C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\Assets\\Scrips\\CrystalPlacement.cs",
               "RelativeDocumentMoniker": "Assets\\Scrips\\CrystalPlacement.cs",
@@ -108,12 +108,11 @@
               "RelativeToolTip": "Assets\\Scrips\\CrystalPlacement.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T03:03:06.008Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T03:03:06.008Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Dialogue.cs",
               "DocumentMoniker": "C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\Assets\\Scrips\\Dialogue.cs",
               "RelativeDocumentMoniker": "Assets\\Scrips\\Dialogue.cs",
@@ -121,8 +120,7 @@
               "RelativeToolTip": "Assets\\Scrips\\Dialogue.cs",
               "ViewState": "AQIAACsAAAAAAAAAAAAgwEkAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T08:53:46.345Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-02T08:53:46.345Z"
             },
             {
               "$type": "Document",

@@ -16,6 +16,8 @@ public class Wand : MonoBehaviour
         {
             var magicBlast = Instantiate(magicBlastPrefab, magicBlastSpawn.position, magicBlastSpawn.rotation);
             magicBlast.GetComponent<Rigidbody>().velocity = magicBlastSpawn.forward * magicBlastSpeed;
+
+            Destroy(magicBlast, 3f);
         }
     }
 }
