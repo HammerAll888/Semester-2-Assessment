@@ -2349,7 +2349,7 @@ MonoBehaviour:
   - Ah, so this is the place, doesn't look too challenging.
   - Use WASD keys to move,
   - Space bar to jump,
-  - and Q/E to rotate Camera
+  - And Q/E to rotate Camera
   textSpeed: 0.05
   Player: {fileID: 1542929831}
   Wand: {fileID: 0}
