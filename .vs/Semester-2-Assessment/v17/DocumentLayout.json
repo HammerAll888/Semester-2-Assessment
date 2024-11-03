@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{327171DB-4687-3399-3B96-FEDAAB8778D5}|Assembly-CSharp.csproj|C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\assets\\scrips\\invisibleplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{327171DB-4687-3399-3B96-FEDAAB8778D5}|Assembly-CSharp.csproj|c:\\users\\andre\\documents\\github\\semester-2-assessment\\assets\\scrips\\invisibleplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{327171DB-4687-3399-3B96-FEDAAB8778D5}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\invisibleplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -19,7 +19,7 @@
       "RelativeMoniker": "D:0:0:{327171DB-4687-3399-3B96-FEDAAB8778D5}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{327171DB-4687-3399-3B96-FEDAAB8778D5}|Assembly-CSharp.csproj|c:\\users\\andre\\documents\\github\\semester-2-assessment\\assets\\scrips\\movingplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{327171DB-4687-3399-3B96-FEDAAB8778D5}|Assembly-CSharp.csproj|C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\assets\\scrips\\movingplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{327171DB-4687-3399-3B96-FEDAAB8778D5}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\movingplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -82,8 +82,7 @@
               "RelativeToolTip": "Assets\\Scrips\\MovingPlatform.cs",
               "ViewState": "AQIAACQAAAAAAAAAAAAowC4AAABdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T13:43:16.131Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-02T13:43:16.131Z"
             },
             {
               "$type": "Document",
@@ -93,7 +92,7 @@
               "RelativeDocumentMoniker": "Assets\\Scrips\\InvisiblePlatform.cs",
               "ToolTip": "C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\Assets\\Scrips\\InvisiblePlatform.cs",
               "RelativeToolTip": "Assets\\Scrips\\InvisiblePlatform.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAowBoAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-02T13:37:57.594Z",
               "EditorCaption": ""
@@ -108,8 +107,7 @@
               "RelativeToolTip": "Assets\\Scrips\\CrystalCollection.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T06:02:54.804Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-28T06:02:54.804Z"
             },
             {
               "$type": "Document",
@@ -121,8 +119,7 @@
               "RelativeToolTip": "Assets\\Scrips\\ActivatePortal.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T13:33:31.95Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-02T13:33:31.95Z"
             },
             {
               "$type": "Document",
@@ -194,8 +191,7 @@
               "RelativeToolTip": "Assets\\Scrips\\MainMenu.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T13:48:38.462Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-30T13:48:38.462Z"
             },
             {
               "$type": "Document",

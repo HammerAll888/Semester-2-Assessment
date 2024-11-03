@@ -4,26 +4,23 @@ using UnityEngine;
 
 public class InvisiblePlatform : MonoBehaviour
 {
+    //Gets a reference to the gameobject
     private List<GameObject> invisiblePlatformL;
     private List<GameObject> invisiblePlatformR;
 
     private void Start()
     {
+        //Creates a list of any gameobject with these tags
         invisiblePlatformL = new List<GameObject>(GameObject.FindGameObjectsWithTag("invisiblePlatformL"));
         invisiblePlatformR = new List<GameObject>(GameObject.FindGameObjectsWithTag("invisiblePlatformR"));
 
         foreach(GameObject platform in invisiblePlatformL)
         {
-            platform.SetActive(true);
+            platform.SetActive(true);       //invisiblePlatformL starts visible
         }
         foreach(GameObject platform in invisiblePlatformR)
         {
-            platform.SetActive(false);
-        }
-
-        if(invisiblePlatformL.Count == 0 && invisiblePlatformR.Count == 0)
-        {
-            Debug.LogError("Got it wrong again jack ass");
+            platform.SetActive(false);      //invisiblePlatformR starts invisible
         }
     }
 

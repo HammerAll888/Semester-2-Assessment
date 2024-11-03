@@ -182,6 +182,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MagicBlastTrail
       objectReference: {fileID: 0}
+    - target: {fileID: 3886181383386871262, guid: 772179e9e1943264295cd0690a0874f2, type: 3}
+      propertyPath: InitialModule.startLifetime.scalar
+      value: 0.3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 772179e9e1943264295cd0690a0874f2, type: 3}
 --- !u!4 &1551302440234843858 stripped
