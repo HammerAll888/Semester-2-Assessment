@@ -9,6 +9,8 @@ TagManager:
   - Target
   - bluePlatform
   - magicBlast
+  - invisiblePlatformR
+  - invisiblePlatformL
   layers:
   - Default
   - TransparentFX

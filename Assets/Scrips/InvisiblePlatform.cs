@@ -4,7 +4,28 @@ using UnityEngine;
 
 public class InvisiblePlatform : MonoBehaviour
 {
-    [SerializeField] GameObject invisiblePlatform;
+    private List<GameObject> invisiblePlatformL;
+    private List<GameObject> invisiblePlatformR;
+
+    private void Start()
+    {
+        invisiblePlatformL = new List<GameObject>(GameObject.FindGameObjectsWithTag("invisiblePlatformL"));
+        invisiblePlatformR = new List<GameObject>(GameObject.FindGameObjectsWithTag("invisiblePlatformR"));
+
+        foreach(GameObject platform in invisiblePlatformL)
+        {
+            platform.SetActive(true);
+        }
+        foreach(GameObject platform in invisiblePlatformR)
+        {
+            platform.SetActive(false);
+        }
+
+        if(invisiblePlatformL.Count == 0 && invisiblePlatformR.Count == 0)
+        {
+            Debug.LogError("Got it wrong again jack ass");
+        }
+    }
 
     //Will make the platofrm invisible when the buttons are pressed
     private void Update()
@@ -22,9 +43,17 @@ public class InvisiblePlatform : MonoBehaviour
         }
     }
 
-    private IEnumerator TogglePlatform(bool isActive, float delay)
+    private IEnumerator TogglePlatform(bool isActiveR, float delay)
     {
         yield return new WaitForSeconds(delay);
-        invisiblePlatform.SetActive(isActive);
+
+        foreach(GameObject platform in invisiblePlatformL)
+        {
+            platform.SetActive(!isActiveR);
+        }
+        foreach(GameObject platform in invisiblePlatformR)
+        {
+            platform.SetActive(isActiveR);
+        }
     }
 }
