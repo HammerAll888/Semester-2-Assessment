@@ -71,14 +71,14 @@
     <Compile Include="Assets\Scrips\MainMenu.cs" />
     <Compile Include="Assets\Scrips\InvisiblePlatform.cs" />
     <Compile Include="Assets\Scrips\PlayerReset.cs" />
+    <Compile Include="Assets\Scrips\DoorButton.cs" />
     <Compile Include="Assets\Scrips\Portal.cs" />
     <Compile Include="Assets\Scrips\Dialogue.cs" />
     <Compile Include="Assets\Scrips\Activatedialogue.cs" />
     <Compile Include="Assets\Scrips\MovingPlatform.cs" />
     <Compile Include="Assets\Scrips\PressurePlate.cs" />
-    <Compile Include="Assets\Scrips\TopDownCharacterMover.cs" />
-    <Compile Include="Assets\Scrips\DoorButton.cs" />
     <Compile Include="Assets\Scrips\CrystalSpawner.cs" />
+    <Compile Include="Assets\Scrips\TopDownCharacterMover.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

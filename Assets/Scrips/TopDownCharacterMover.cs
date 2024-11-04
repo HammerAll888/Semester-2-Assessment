@@ -9,6 +9,7 @@ public class TopDownCharacterMover : MonoBehaviour
 {
     private InputHandler _input; //References the InputHandler script
     public CameraManager CameraManager; //References the CameraManager script
+    public GameObject model;
 
     //List of game objects used in the script
     [SerializeField] private float moveSpeed;
@@ -26,7 +27,7 @@ public class TopDownCharacterMover : MonoBehaviour
 
     private void Start()
     {
-        animator = GetComponent<Animator>();
+        animator = model.GetComponent<Animator>();
     }
 
     //External components needed for movemnet
@@ -66,11 +67,16 @@ public class TopDownCharacterMover : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded())
         {
             rb.velocity = Vector3.up * jumpForce;
+            animator.SetBool("isJumping", true);
         }
 
         if (!isGrounded())
         {
             rb.velocity += Vector3.down * gravityMultiplier * Physics.gravity.y * Time.deltaTime;
+        }
+        else
+        {
+            animator.SetBool("isJumping", false);
         }
     }
 
