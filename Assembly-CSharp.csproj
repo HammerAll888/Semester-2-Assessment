@@ -77,6 +77,8 @@
     <Compile Include="Assets\Scrips\MovingPlatform.cs" />
     <Compile Include="Assets\Scrips\PressurePlate.cs" />
     <Compile Include="Assets\Scrips\TopDownCharacterMover.cs" />
+    <Compile Include="Assets\Scrips\DoorButton.cs" />
+    <Compile Include="Assets\Scrips\CrystalSpawner.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
