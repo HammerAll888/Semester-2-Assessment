@@ -1391,6 +1391,10 @@ PrefabInstance:
       propertyPath: CameraManager
       value: 
       objectReference: {fileID: 326331149}
+    - target: {fileID: 2850320103363147854, guid: 54e43009ddf332b41aed74544a4a66ff, type: 3}
+      propertyPath: m_SpotAngle
+      value: 41.7
+      objectReference: {fileID: 0}
     - target: {fileID: 4332885096564334254, guid: 54e43009ddf332b41aed74544a4a66ff, type: 3}
       propertyPath: m_RootOrder
       value: 2
