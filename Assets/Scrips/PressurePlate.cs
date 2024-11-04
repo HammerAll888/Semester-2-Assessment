@@ -6,6 +6,7 @@ using UnityEngine;
 public class PressurePlate : MonoBehaviour
 {
     [SerializeField] GameObject Platform;
+    [SerializeField] GameObject Light;
     public Transform platform; //Defines the platform object
     public float moveDistance = 2f; // How far the platform will move
     public float moveSpeed = 2f; // Speed of the platform moving
@@ -24,6 +25,8 @@ public class PressurePlate : MonoBehaviour
         {
             isMoving = true;
         }
+
+        Light.SetActive(true);
     }
 
     private void Update()

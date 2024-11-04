@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{327171DB-4687-3399-3B96-FEDAAB8778D5}|Assembly-CSharp.csproj|C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\assets\\scrips\\pressureplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{327171DB-4687-3399-3B96-FEDAAB8778D5}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\pressureplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{327171DB-4687-3399-3B96-FEDAAB8778D5}|Assembly-CSharp.csproj|c:\\users\\andre\\documents\\github\\semester-2-assessment\\assets\\scrips\\invisibleplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{327171DB-4687-3399-3B96-FEDAAB8778D5}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\invisibleplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -51,10 +55,6 @@
       "RelativeMoniker": "D:0:0:{327171DB-4687-3399-3B96-FEDAAB8778D5}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\activatedialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{327171DB-4687-3399-3B96-FEDAAB8778D5}|Assembly-CSharp.csproj|C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\assets\\scrips\\pressureplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{327171DB-4687-3399-3B96-FEDAAB8778D5}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\pressureplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{327171DB-4687-3399-3B96-FEDAAB8778D5}|Assembly-CSharp.csproj|C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\assets\\scrips\\cameramanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{327171DB-4687-3399-3B96-FEDAAB8778D5}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\cameramanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -70,11 +70,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "MovingPlatform.cs",
               "DocumentMoniker": "C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\Assets\\Scrips\\MovingPlatform.cs",
               "RelativeDocumentMoniker": "Assets\\Scrips\\MovingPlatform.cs",
@@ -86,7 +86,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "InvisiblePlatform.cs",
               "DocumentMoniker": "C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\Assets\\Scrips\\InvisiblePlatform.cs",
               "RelativeDocumentMoniker": "Assets\\Scrips\\InvisiblePlatform.cs",
@@ -99,7 +99,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CrystalCollection.cs",
               "DocumentMoniker": "C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\Assets\\Scrips\\CrystalCollection.cs",
               "RelativeDocumentMoniker": "Assets\\Scrips\\CrystalCollection.cs",
@@ -111,7 +111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ActivatePortal.cs",
               "DocumentMoniker": "C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\Assets\\Scrips\\ActivatePortal.cs",
               "RelativeDocumentMoniker": "Assets\\Scrips\\ActivatePortal.cs",
@@ -123,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Activatedialogue.cs",
               "DocumentMoniker": "C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\Assets\\Scrips\\Activatedialogue.cs",
               "RelativeDocumentMoniker": "Assets\\Scrips\\Activatedialogue.cs",
@@ -135,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Wand.cs",
               "DocumentMoniker": "C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\Assets\\Scrips\\Wand\\Wand.cs",
               "RelativeDocumentMoniker": "Assets\\Scrips\\Wand\\Wand.cs",
@@ -147,7 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "CrystalPlacement.cs",
               "DocumentMoniker": "C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\Assets\\Scrips\\CrystalPlacement.cs",
               "RelativeDocumentMoniker": "Assets\\Scrips\\CrystalPlacement.cs",
@@ -159,7 +159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Dialogue.cs",
               "DocumentMoniker": "C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\Assets\\Scrips\\Dialogue.cs",
               "RelativeDocumentMoniker": "Assets\\Scrips\\Dialogue.cs",
@@ -171,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Portal.cs",
               "DocumentMoniker": "C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\Assets\\Scrips\\Portal.cs",
               "RelativeDocumentMoniker": "Assets\\Scrips\\Portal.cs",
@@ -183,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "MainMenu.cs",
               "DocumentMoniker": "C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\Assets\\Scrips\\MainMenu.cs",
               "RelativeDocumentMoniker": "Assets\\Scrips\\MainMenu.cs",
@@ -207,7 +207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "TopDownCharacterMover.cs",
               "DocumentMoniker": "C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\Assets\\Scrips\\TopDownCharacterMover.cs",
               "RelativeDocumentMoniker": "Assets\\Scrips\\TopDownCharacterMover.cs",
@@ -219,7 +219,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "PlayerReset.cs",
               "DocumentMoniker": "C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\Assets\\Scrips\\PlayerReset.cs",
               "RelativeDocumentMoniker": "Assets\\Scrips\\PlayerReset.cs",
@@ -243,15 +243,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 0,
               "Title": "PressurePlate.cs",
               "DocumentMoniker": "C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\Assets\\Scrips\\PressurePlate.cs",
               "RelativeDocumentMoniker": "Assets\\Scrips\\PressurePlate.cs",
               "ToolTip": "C:\\Users\\andre\\Documents\\GitHub\\Semester-2-Assessment\\Assets\\Scrips\\PressurePlate.cs",
               "RelativeToolTip": "Assets\\Scrips\\PressurePlate.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABwAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T00:03:10.823Z"
+              "WhenOpened": "2024-10-25T00:03:10.823Z",
+              "EditorCaption": ""
             }
           ]
         }
