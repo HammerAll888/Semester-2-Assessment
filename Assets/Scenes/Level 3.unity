@@ -10931,6 +10931,32 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5547295437757223789, guid: d32c46588be956f468ed522886cd645e, type: 3}
   m_PrefabInstance: {fileID: 1021288022}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1021288024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021288023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b45fc1c83077e2a45a70c502075b68b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SceneName: Thank You
+--- !u!65 &1021288025
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021288023}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1023985702
 PrefabInstance:
   m_ObjectHideFlags: 0
