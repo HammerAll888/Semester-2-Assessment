@@ -67,10 +67,12 @@
     <Compile Include="Assets\Prefabs\Player Items\READ ME.cs" />
     <Compile Include="Assets\Scrips\WaypointPath.cs" />
     <Compile Include="Assets\Scrips\CameraManager.cs" />
+    <Compile Include="Assets\Scrips\NavMeshAgentScript.cs" />
     <Compile Include="Assets\Scrips\CrystalPlacement.cs" />
     <Compile Include="Assets\Scrips\MainMenu.cs" />
     <Compile Include="Assets\Scrips\InvisiblePlatform.cs" />
     <Compile Include="Assets\Scrips\PlayerReset.cs" />
+    <Compile Include="Assets\Scrips\AI.cs" />
     <Compile Include="Assets\Scrips\DoorButton.cs" />
     <Compile Include="Assets\Scrips\Portal.cs" />
     <Compile Include="Assets\Scrips\Dialogue.cs" />
