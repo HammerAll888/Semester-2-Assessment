@@ -3155,10 +3155,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 782942137}
   lines:
+  - 'So, putting that crystal in the pot opened a portal, '
+  - 'and going through that portal brought me here.  '
+  - 'The rock platforms that were just levitating before are now moving as well. '
   - TIP - If stuck, swap camera angle with Q/E
-  - WASD to move
-  - Spacebar to Jump
-  - F to place Gem
   textSpeed: 0.05
   Player: {fileID: 2116734218}
   Wand: {fileID: 0}
