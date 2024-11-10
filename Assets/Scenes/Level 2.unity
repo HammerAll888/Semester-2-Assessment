@@ -13850,7 +13850,11 @@ MonoBehaviour:
   textComponent: {fileID: 870111893}
   lines:
   - Woah! This cave is huge.
-  textSpeed: 0.1
+  - WASD to move
+  - Spacebar to jump
+  - Q/E to Rotate Camera
+  - F to Place Crystal
+  textSpeed: 0.05
   Player: {fileID: 0}
   Wand: {fileID: 0}
 --- !u!114 &1951299317
