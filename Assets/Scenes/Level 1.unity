@@ -136,15 +136,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c8bd79eb5aeeb054fb8b28cf01bdc47c, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.010916048
+      value: 0.01342454
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c8bd79eb5aeeb054fb8b28cf01bdc47c, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.010916048
+      value: 0.01342454
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c8bd79eb5aeeb054fb8b28cf01bdc47c, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.010916048
+      value: 0.01342454
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c8bd79eb5aeeb054fb8b28cf01bdc47c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2285,7 +2285,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 957514770}
   m_LocalRotation: {x: 0.23198517, y: 0.25124377, z: -0.06216025, w: 0.9376543}
-  m_LocalPosition: {x: -6.2572927, y: 14.522786, z: -45.77819}
+  m_LocalPosition: {x: -4.7101912, y: 14.564785, z: -46.18719}
   m_LocalScale: {x: 2.573835, y: 2.5738347, z: 2.573835}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2851,15 +2851,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 294953152410410094, guid: a1b886ff28bd6f04f918675e5c6ca5cf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.2572927
+      value: -4.7101912
       objectReference: {fileID: 0}
     - target: {fileID: 294953152410410094, guid: a1b886ff28bd6f04f918675e5c6ca5cf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 14.522786
+      value: 14.564785
       objectReference: {fileID: 0}
     - target: {fileID: 294953152410410094, guid: a1b886ff28bd6f04f918675e5c6ca5cf, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -45.77819
+      value: -46.18719
       objectReference: {fileID: 0}
     - target: {fileID: 294953152410410094, guid: a1b886ff28bd6f04f918675e5c6ca5cf, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2905,15 +2905,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 124599309726230103, guid: 47aaa46f8d2305e4ba967c78ee31c14c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.8522413
+      value: 5.3993435
       objectReference: {fileID: 0}
     - target: {fileID: 124599309726230103, guid: 47aaa46f8d2305e4ba967c78ee31c14c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 14.522784
+      value: 14.564787
       objectReference: {fileID: 0}
     - target: {fileID: 124599309726230103, guid: 47aaa46f8d2305e4ba967c78ee31c14c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -44.89372
+      value: -45.302723
       objectReference: {fileID: 0}
     - target: {fileID: 124599309726230103, guid: 47aaa46f8d2305e4ba967c78ee31c14c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3155,10 +3155,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 782942137}
   lines:
-  - So, putting that crystal in the pot opened a portal.
-  - And going through it brought me here.
-  - Some platforms are now moving too
   - TIP - If stuck, swap camera angle with Q/E
+  - WASD to move
+  - Spacebar to Jump
+  - F to place Gem
   textSpeed: 0.05
   Player: {fileID: 2116734218}
   Wand: {fileID: 0}
@@ -4577,15 +4577,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4277361081209683387, guid: 272628e11361ada438d55eb7cec544ef, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.8341
+      value: -0.287
       objectReference: {fileID: 0}
     - target: {fileID: 4277361081209683387, guid: 272628e11361ada438d55eb7cec544ef, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 9.86
+      value: 9.902
       objectReference: {fileID: 0}
     - target: {fileID: 4277361081209683387, guid: 272628e11361ada438d55eb7cec544ef, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -38.117
+      value: -38.526
       objectReference: {fileID: 0}
     - target: {fileID: 4277361081209683387, guid: 272628e11361ada438d55eb7cec544ef, type: 3}
       propertyPath: m_LocalRotation.w
